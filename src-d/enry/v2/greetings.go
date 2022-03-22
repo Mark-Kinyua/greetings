@@ -11,7 +11,7 @@ import (
 func Hello(name string) (string, error) {
     // If no name was given, return an error with a message.
     if name == "" {
-        return "", errors.New("empty name")
+        return "", errors.New("No Name entered")
     }
 
     // If a name was received, return a value that embeds the name
